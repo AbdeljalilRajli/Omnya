@@ -1,0 +1,33 @@
+{
+  "name": "xpovio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "20.5.7",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "bootstrap": "^5.3.1",
+    "chroma-js": "^2.4.2",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "gsap": "^3.12.2",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.66.1",
+    "sharp": "^0.32.5",
+    "split-type": "^0.3.3",
+    "swiper": "^10.2.0",
+    "typescript": "^5.2.2",
+    "vanilla-tilt": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^2.4.0"
+  }
+}
