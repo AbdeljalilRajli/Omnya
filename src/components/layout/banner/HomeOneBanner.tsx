@@ -4,9 +4,6 @@ import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
-import videoframe from "public/images/video-frame.png";
-import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
-
 gsap.registerPlugin(ScrollTrigger);
 const HomeOneBanner = () => {
   const [videoActive, setVideoActive] = useState(false);
@@ -96,13 +93,9 @@ const HomeOneBanner = () => {
             facebook
           </Link>
         </div>
-        <button
-          className="video-frame video-btn"
-          onClick={() => setVideoActive(true)}
-        >
-          <Image src={videoframe} alt="Image" priority />
-          <i className="fa-sharp fa-solid fa-play"></i>
-        </button>
+        <div className="arrow-wrapper d-none d-lg-block">
+            <span className="arrow"></span>
+        </div>
         <div className="lines d-none d-lg-flex">
           <div className="line"></div>
           <div className="line"></div>
@@ -111,26 +104,6 @@ const HomeOneBanner = () => {
           <div className="line"></div>
         </div>
       </section>
-      <div
-        className={(videoActive ? " video-zoom-in" : " ") + " video-backdrop"}
-        onClick={() => setVideoActive(false)}
-      >
-        <div className="video-inner">
-          <div
-            className="video-container"
-            onClick={(e: any) => e.stopPropagation()}
-          >
-            {videoActive && <YoutubeEmbed embedId="fSv6UgCkuTU" />}
-            <button
-              aria-label="close video popup"
-              className="close-video-popup"
-              onClick={() => setVideoActive(false)}
-            >
-              <i className="fa-solid fa-xmark"></i>
-            </button>
-          </div>
-        </div>
-      </div>
     </>
   );
 };
