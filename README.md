@@ -2,7 +2,7 @@
 
   Welcome to Omnya Bouhamed portfolio! This project showcases her work as a multilingual marketing & communication professional with 7+ years of experience across various industries, including FMCG, tourism, healthcare, and industry. You'll find details of the completed projects, experience, and testimonials from clients.
 
-💻 **Live Demo:** [www.3abdeljalil.com](https://omnya-two.vercel.app/)
+💻 **Live Demo:** [www.omnya-two.vercel.app](https://omnya-two.vercel.app/)
 
 ---
 
