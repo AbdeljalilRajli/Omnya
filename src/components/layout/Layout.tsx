@@ -60,10 +60,6 @@ const Layout = ({
 
   const classMappings: Record<string, string> = {
     "/index-light": "home-light",
-    "/index-two-light": "home-two-light",
-    "/index-three-light": "home-three-light",
-    "/index-four-light": "home-four-light",
-    "/index-five-light": "home-five-light",
   };
 
   const classNameForCurrentPath = classMappings[router.pathname] || "";

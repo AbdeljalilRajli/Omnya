@@ -53,7 +53,7 @@ const HomeOneBanner = () => {
                     <i className="icon-arrow-top-right"></i> Markter & Creator
                   </span>
                 </h1>
-                <div className="banner__content-inner align-right">
+                <div className="banner__content-inner">
                   <p>
                     Multilingual Marketing & Communication professional with 7+ years 
                     of experience across sectors like FMCG, tourism, healthcare, and industry. 

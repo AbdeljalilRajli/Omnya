@@ -201,7 +201,7 @@
 
   .open-offcanvas-nav {
     @include box(80px);
-    border: 1px solid #414141;
+    border: 1px solid #2fdd7e;
     position: relative;
     &::before {
       content: "";
@@ -211,7 +211,7 @@
       transform: translate(-50%, -50%);
       width: 14px;
       height: 14px;
-      background-color: #414141;
+      background-color: #2fdd7e;
       border-radius: 50%;
       transition: var(--transition);
     }
@@ -239,7 +239,7 @@
     background-color: #191919;
 
     &::before {
-      content: "Explore Pages";
+      content: "Omnya Bouhamed";
       position: absolute;
       top: 30%;
       right: 10%;

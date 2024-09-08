@@ -27,8 +27,7 @@ const FooterFour = () => {
             <div className="footer-four__content">
               <div className="intro text-center">
                 <h2 className="light-title text-uppercase title-anim">
-                  Let&apos;s make some magic 👽 happen and show the world what
-                  your brand is all about!
+                  Excited for new challenges 💚 and eager to contribute my skills to a great team!
                 </h2>
               </div>
               <div className="row justify-content-center cta-t section__content-cta">
@@ -39,7 +38,6 @@ const FooterFour = () => {
                       <i className="fa-regular fa-comment-dots"></i>
                     </Link>
                   </h3>
-                  <p>Let&apos;s make your brand the talk of the town</p>
                 </div>
               </div>
             </div>
@@ -49,8 +47,8 @@ const FooterFour = () => {
           <div className="col-12 col-lg-6">
             <ul className="justify-content-center justify-content-lg-start">
               <li>
-                <Link href="https://www.linkedin.com/" target="_blank">
-                  Linkedin
+                <Link href="https://www.linkedin.com/in/omnya-bouhamed/" target="_blank">
+                  LinkedIn
                 </Link>
               </li>
               <li>
@@ -59,8 +57,8 @@ const FooterFour = () => {
                 </Link>
               </li>
               <li>
-                <Link href="https://www.facebook.com/" target="_blank">
-                  Facebook
+                <Link href="https://www.instagram.com/omy_bou?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                  Instagram
                 </Link>
               </li>
             </ul>
@@ -68,7 +66,7 @@ const FooterFour = () => {
           <div className="col-12 col-lg-6">
             <div className="text-center text-lg-end">
               <Link href="mailto:hello@website.com" className="text-capitalize">
-                hello@website.com
+                omnya.bhmd@gmail.com
               </Link>
             </div>
           </div>
