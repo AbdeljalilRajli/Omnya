@@ -20,14 +20,14 @@ const FooterFour = () => {
   }
 
   return (
-    <footer className="section footer-four pb-0">
+    <footer className="section footer-four pb-0" id="contact">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="footer-four__content">
               <div className="intro text-center">
                 <h2 className="light-title text-uppercase title-anim">
-                  Let&apos;s make some magic ✨ happen and show the world what
+                  Let&apos;s make some magic 👽 happen and show the world what
                   your brand is all about!
                 </h2>
               </div>
@@ -84,12 +84,12 @@ const FooterFour = () => {
                     <div className="footer__copyright-text text-center text-lg-start">
                       <p>
                         Copyright &copy;{" "}
-                        <span id="copyYear">{currentYear}</span> Xpovio by{" "}
+                        <span id="copyYear">{currentYear}</span> Omnya by{" "}
                         <Link
-                          href="https://themeforest.net/user/UltraDevs"
+                          href="https://www.3abdeljalil.com"
                           target="_blank"
                         >
-                          UltraDevs{" "}
+                          3abdeljalil{" "}
                         </Link>
                         . All Rights Reserved
                       </p>

@@ -14,7 +14,6 @@ import FooterTwo from "./footer/FooterTwo";
 import FooterThree from "./footer/FooterThree";
 import FooterFour from "./footer/FooterFour";
 import FooterFive from "./footer/FooterFive";
-import VideoModal from "./VideoModal";
 import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
 import SplitType from "split-type";
@@ -180,7 +179,7 @@ const Layout = ({
           href="/images/favicon.png"
           type="image/x-icon"
         />
-        <title>Xpovio | Digital Agency Creative Portfolio Template</title>
+        <title>Omnya BOUHAMED | Multilingual Marketing & Communication professional</title>
         <meta name="keywords" content="creative, agency, portfolio" />
         <meta
           name="description"

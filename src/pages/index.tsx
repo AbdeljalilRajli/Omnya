@@ -3,23 +3,19 @@ import Layout from "@/components/layout/Layout";
 import HomeOneBanner from "@/components/layout/banner/HomeOneBanner";
 import Agency from "@/components/containers/home/Agency";
 import PortfolioText from "@/components/containers/home/PortfolioText";
-import HomeOffer from "@/components/containers/home/HomeOffer";
 import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
-import HomeBlog from "@/components/containers/home/HomeBlog";
-import HomeSponsor from "@/components/containers/home/HomeSponsor";
-import NextPage from "@/components/containers/home/NextPage";
+import HomeThreeServices from "@/components/containers/home/HomeThreeServices";
+import HomeTwoAward from "@/components/containers/home/HomeTwoAward";
 
 const Home = () => {
   return (
-    <Layout header={1} footer={4} video={true}>
+    <Layout header={1} footer={4}>
       <HomeOneBanner />
       <Agency />
       <PortfolioText />
-      <HomeOffer />
+      <HomeThreeServices />
       <HomeTestimonial />
-      <HomeBlog />
-      <HomeSponsor />
-      <NextPage />
+      <HomeTwoAward />   
     </Layout>
   );
 };

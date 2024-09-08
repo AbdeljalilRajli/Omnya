@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import thumbone from "public/images/agency/thumb-one.png";
-import thumbtwo from "public/images/agency/thumb-two.png";
+import thumbone from "public/images/agency/omnya-bouhamed2.webp";
+import thumbtwo from "public/images/agency/omnya-bouhamed1.webp";
 import star from "public/images/star.png";
 import dotlarge from "public/images/agency/dot-large.png";
 
@@ -74,7 +74,7 @@ const Agency = () => {
   }, []);
 
   return (
-    <section className="section agency">
+    <section className="section agency" id="about-me">
       <div className="container">
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-6">
@@ -96,63 +96,22 @@ const Agency = () => {
           <div className="col-12 col-lg-6">
             <div className="agency__content section__content">
               <span className="sub-title">
-                WELCOME
+                Omnya Mouhamed
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                We are digital creative agency in London
+                Proud Mom and Marketing Pro with Heart
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                  With over seven years of agency experience, I specialize in marketing project management and digital strategy, 
+                  always approaching my work with kindness and positivity. As a proud mother to the sweetest child, I understand 
+                  the value of balance and creativity, which I bring to every project I take on.<br /><br />
+
+                  My skills in content creation, project reporting, and crafting clear strategies have helped teams thrive 
+                  and achieve their goals. Driven by a passion for collaboration and excellence, I create solutions that not 
+                  only succeed but also bring joy to the people I work with.
                 </p>
-              </div>
-              <div className="skill-wrap">
-                <div className="skill-bar-single d-none">
-                  <div className="skill-bar-title">
-                    <p className="primary-text">Website design</p>
-                  </div>
-                  <div className="skill-bar-wrapper" data-percent="75%">
-                    <div className="skill-bar">
-                      <div className="skill-bar-percent">
-                        <span className="percent-value"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="skill-bar-single">
-                  <div className="skill-bar-title">
-                    <p className="primary-text">Website design</p>
-                  </div>
-                  <div className="skill-bar-wrapper" data-percent="75%">
-                    <div className="skill-bar">
-                      <div className="skill-bar-percent">
-                        <span className="percent-value"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="skill-bar-single">
-                  <div className="skill-bar-title">
-                    <p className="primary-text">Digital Marketing</p>
-                  </div>
-                  <div className="skill-bar-wrapper" data-percent="90%">
-                    <div className="skill-bar">
-                      <div className="skill-bar-percent">
-                        <span className="percent-value"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="section__content-cta">
-                <Link href="about-us" className="btn btn--primary">
-                  Know More
-                </Link>
               </div>
             </div>
           </div>

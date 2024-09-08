@@ -44,7 +44,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
     return submenu === openSubMenu ? " navbar__item-active" : " ";
   };
 
-  // window resize
+  // Window resize
   useEffect(() => {
     const handleResizeHeader = (): void => {
       setOpenNav(false);
@@ -56,7 +56,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
     return () => {
       window.removeEventListener("resize", handleResizeHeader);
     };
-  }, []);
+  }, [setOpenNav]);
 
   const closeNav = () => {
     setOpenNav(false);
@@ -86,177 +86,30 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           <div className="offcanvas-menu__list">
             <div className="navbar__menu">
               <ul>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      "home"
-                    )}`}
-                    onClick={() => handleSubmenu("home")}
-                  >
-                    Home
-                  </button>
-                  <ul className={`navbar__sub-menu ${isSubMenuOpen("home")}`}>
-                    <li>
-                      <Link href="/">Creative Agency</Link>
-                    </li>
-                    <li>
-                      <Link href="index-light">Creative Agency Light</Link>
-                    </li>
-                    <li>
-                      <Link href="index-two">Digital Agency</Link>
-                    </li>
-                    <li>
-                      <Link href="index-two-light">Digital Agency Light</Link>
-                    </li>
-                    <li>
-                      <Link href="index-three">It Solution</Link>
-                    </li>
-                    <li>
-                      <Link href="index-three-light">It Solution Light</Link>
-                    </li>
-                    <li>
-                      <Link href="index-four">Personal Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link href="index-four-light">
-                        Personal Portfolio Light
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="index-five">Interactive Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link href="index-five-light">
-                        Interactive Portfolio Light
-                      </Link>
-                    </li>
-                  </ul>
+                <li className="navbar__item nav-fade">
+                  <Link href="#about-me" onClick={closeNav}>About Me</Link>
                 </li>
                 <li className="navbar__item nav-fade">
-                  <Link href="about-us">About Us</Link>
+                  <Link href="#worke-on" onClick={closeNav}>Worked On</Link>
                 </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      "services"
-                    )}`}
-                    onClick={() => handleSubmenu("services")}
-                  >
-                    Services
-                  </button>
-                  <ul
-                    className={`navbar__sub-menu ${isSubMenuOpen("services")}`}
-                  >
-                    <li>
-                      <Link href="our-services">Our Services</Link>
-                    </li>
-                    <li>
-                      <Link href="service-single">Service Details</Link>
-                    </li>
-                  </ul>
+                <li className="navbar__item nav-fade">
+                  <Link href="#experience" onClick={closeNav}>Experience</Link>
                 </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      "projects"
-                    )}`}
-                    onClick={() => handleSubmenu("projects")}
-                  >
-                    Projects
-                  </button>
-                  <ul
-                    className={`navbar__sub-menu ${isSubMenuOpen("projects")}`}
-                  >
-                    <li>
-                      <Link href="our-projects">Our Projects</Link>
-                    </li>
-                    <li>
-                      <Link href="project-single">Project Details</Link>
-                    </li>
-                  </ul>
+                <li className="navbar__item nav-fade">
+                  <Link href="#testimonials" onClick={closeNav}>Testimonials</Link>
                 </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label ${isSubMenuButton(
-                      "pages"
-                    )}`}
-                    onClick={() => handleSubmenu("pages")}
-                  >
-                    Pages
-                  </button>
-                  <ul className={`navbar__sub-menu ${isSubMenuOpen("pages")}`}>
-                    <li>
-                      <Link href="faq">FAQ</Link>
-                    </li>
-                    <li>
-                      <Link href="404">Error</Link>
-                    </li>
-                    <li>
-                      <Link href="our-story">Our Story</Link>
-                    </li>
-                    <li>
-                      <Link href="portfolio">Portfolio</Link>
-                    </li>
-                    <li className="navbar__item navbar__item--has-children">
-                      <button
-                        aria-label="dropdown menu"
-                        className={`navbar__dropdown-label navbar__dropdown-label-sub ${isNestedMenuButton(
-                          "team"
-                        )}`}
-                        onClick={() => handleNestedmenu("team")}
-                      >
-                        Team
-                      </button>
-                      <ul
-                        className={`navbar__sub-menu navbar__sub-menu__nested ${isNestedMenuOpen(
-                          "team"
-                        )}`}
-                      >
-                        <li>
-                          <Link href="our-teams">Our Teams</Link>
-                        </li>
-                        <li>
-                          <Link href="team-single">Team Details</Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <Link href="client-feedback">Testimonials</Link>
-                    </li>
-                    <li>
-                      <Link href="contact-us">Contact Us</Link>
-                    </li>
-                  </ul>
+                <li className="navbar__item nav-fade">
+                  <Link href="#education" onClick={closeNav}>Education</Link>
                 </li>
-                <li className="navbar__item navbar__item--has-children nav-fade">
-                  <button
-                    aria-label="dropdown menu"
-                    className={`navbar__dropdown-label navbar__dropdown-label-sub ${isSubMenuButton(
-                      "blog"
-                    )}`}
-                    onClick={() => handleSubmenu("blog")}
-                  >
-                    Blog
-                  </button>
-                  <ul className={`navbar__sub-menu ${isSubMenuOpen("blog")}`}>
-                    <li>
-                      <Link href="blog">Blog</Link>
-                    </li>
-                    <li>
-                      <Link href="blog-single">Blog Details</Link>
-                    </li>
-                  </ul>
-                </li>
+                <li className="navbar__item nav-fade">
+                  <Link href="#contact" onClick={closeNav}>Get In Touch</Link>
+                </li>           
               </ul>
             </div>
           </div>
           <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
-              <Link href="contact-us" className="btn btn--secondary">
+              <Link href="contact-us" className="btn btn--secondary" onClick={closeNav}>
                 Let&apos;s Talk
               </Link>
             </div>
@@ -266,6 +119,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               href="https://www.facebook.com/"
               target="_blank"
               aria-label="share us on facebook"
+              onClick={closeNav}
             >
               <i className="fa-brands fa-facebook-f"></i>
             </Link>
@@ -273,6 +127,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               href="https://www.twitter.com/"
               target="_blank"
               aria-label="share us on twitter"
+              onClick={closeNav}
             >
               <i className="fa-brands fa-twitter"></i>
             </Link>
@@ -280,6 +135,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               href="https://www.pinterest.com/"
               target="_blank"
               aria-label="share us on pinterest"
+              onClick={closeNav}
             >
               <i className="fa-brands fa-linkedin-in"></i>
             </Link>
@@ -287,6 +143,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
               href="https://www.instagram.com/"
               target="_blank"
               aria-label="share us on instagram"
+              onClick={closeNav}
             >
               <i className="fa-brands fa-instagram"></i>
             </Link>

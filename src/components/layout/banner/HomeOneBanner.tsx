@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeOneBanner = () => {
-  const [videoActive, setVideoActive] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -55,7 +53,7 @@ const HomeOneBanner = () => {
                     <i className="icon-arrow-top-right"></i> Markter & Creator
                   </span>
                 </h1>
-                <div className="banner__content-inner">
+                <div className="banner__content-inner align-right">
                   <p>
                     Multilingual Marketing & Communication professional with 7+ years 
                     of experience across sectors like FMCG, tourism, healthcare, and industry. 

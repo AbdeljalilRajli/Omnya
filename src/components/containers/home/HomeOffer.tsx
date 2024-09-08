@@ -37,7 +37,7 @@ const HomeOffer = () => {
           <div className="col-12 col-lg-5">
             <div className="offer__content section__content">
               <span className="sub-title">
-                WHAT WE OFFER
+                Eperience
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
