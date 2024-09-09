@@ -54,7 +54,7 @@
 
 ```markdown
 public/images/portfolio-mockup.png
-```
+<img src="public/images/portfolio-mockup.png" />```
 
 ---
 
