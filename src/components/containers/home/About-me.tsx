@@ -96,7 +96,7 @@ const Agency = () => {
           <div className="col-12 col-lg-6">
             <div className="agency__content section__content">
               <span className="sub-title">
-                Omnya Mouhamed
+                Omnya Bouhamed
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">

@@ -44,7 +44,10 @@ const HomeTwoAward = () => {
                 </div>
               </div>
               <div className="section__content-cta">
-                <Link href="about-us" className="btn btn--primary">
+                <Link href="/Omnya-BOUHAMED-Client-Advisor-RBC.pdf"
+                      className="btn btn--primary text-capitalize" 
+                      target="_blank" 
+                      rel="noopener noreferrer">
                   Download My Resume
                 </Link>
               </div>

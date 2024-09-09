@@ -26,8 +26,10 @@ const HomeThreeServices = () => {
                 <div className="col-12 col-lg-4">
                   <div className="text-center text-lg-end">
                     <Link
-                      href="our-services"
-                      className="btn btn--primary text-capitalize"
+                      href="/Omnya-BOUHAMED-Client-Advisor-RBC.pdf"
+                      className="btn btn--primary text-capitalize" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
                     >
                       Dowloand My Resume
                     </Link>
