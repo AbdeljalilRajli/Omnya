@@ -60,6 +60,6 @@
 
 ### 👩‍💻 Author:
 **Abdeljalil Rajli**  
-Feel free to reach out at [rajlicontact@gmail.com](mailto:rajli.contact@gmail.com) for inquiries or collaboration opportunities.
+Feel free to reach out at [rajli.contact@gmail.com](mailto:rajli.contact@gmail.com) for inquiries or collaboration opportunities.
 
 ---
