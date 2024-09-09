@@ -4,6 +4,8 @@
   
 ---
 
+### 🎨 Design & Mockup:
+
 ![image description](public/images/portfolio-mockup.png)
 
 ---
@@ -53,12 +55,6 @@
 
 5. **Deploy to production:**
    Follow your hosting provider’s guidelines (e.g., Vercel, Netlify, etc.).
-
----
-
-### 🎨 Design & Mockup:
-
-```markdown
 
 ---
 
