@@ -53,7 +53,7 @@
 ### 🎨 Design & Mockup:
 
 ```markdown
-![Portfolio Mockup](public/images/portfolio-mockup.png)
+public/images/portfolio-mockup.png
 ```
 
 ---
