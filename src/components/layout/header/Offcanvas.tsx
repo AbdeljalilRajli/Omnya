@@ -109,7 +109,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
           </div>
           <div className="offcanvas-menu__options nav-fade">
             <div className="offcanvas__mobile-options d-flex">
-              <Link href="mailto:hello@website.com" className="btn btn--secondary" onClick={closeNav}>
+              <Link href="mailto:omnya.bhmd@gmail.com" className="btn btn--secondary" onClick={closeNav}>
                 Let&apos;s Talk
               </Link>
             </div>

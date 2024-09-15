@@ -65,7 +65,7 @@ const FooterFour = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="text-center text-lg-end">
-              <Link href="mailto:hello@website.com" className="text-capitalize">
+              <Link href="mailto:omnya.bhmd@gmail.com" className="text-capitalize">
                 omnya.bhmd@gmail.com
               </Link>
             </div>

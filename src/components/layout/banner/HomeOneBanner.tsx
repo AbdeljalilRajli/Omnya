@@ -77,7 +77,7 @@ const HomeOneBanner = () => {
         </div>
         
         <div className="banner-left-text banner-social-text d-none d-md-flex">
-          <Link href="mailto:info@xpovio.com">mail : omnya.bhmd@gmail.com</Link>
+          <Link href="mailto:omnya.bhmd@gmail.com">mail : omnya.bhmd@gmail.com</Link>
           <Link href="tel:+1-873-688-8780">Call : +1 (873) 688-8780</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
