@@ -63,3 +63,6 @@
 Feel free to reach out at [rajli.contact@gmail.com](mailto:rajli.contact@gmail.com) for inquiries or collaboration opportunities.
 
 ---
+
+### License
+This project is licensed under the MIT License.
