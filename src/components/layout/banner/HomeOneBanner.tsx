@@ -81,14 +81,14 @@ const HomeOneBanner = () => {
           <Link href="tel:+1-873-688-8780">Call : +1 (873) 688-8780</Link>
         </div>
         <div className="banner-right-text banner-social-text d-none d-md-flex">
-          <Link href="https://www.instagram.com/" target="_blank">
-            instagram
-          </Link>
-          <Link href="https://www.pinterest.com/" target="_blank">
+          <Link href="https://www.linkedin.com/in/omnya-bouhamed/" target="_blank">
             Linkedin
           </Link>
-          <Link href="https://www.facebook.com/" target="_blank">
-            facebook
+          <Link href="https://www.instagram.com/omy_bou?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            Intagram
+          </Link>
+          <Link href="#" target="_blank">
+            Twitter
           </Link>
         </div>
         <div className="arrow-wrapper d-none d-lg-block">
