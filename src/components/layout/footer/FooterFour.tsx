@@ -52,7 +52,7 @@ const FooterFour = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" target="_blank">
+                <Link href="https://x.com/OmnyaBhmd" target="_blank">
                   Twitter
                 </Link>
               </li>

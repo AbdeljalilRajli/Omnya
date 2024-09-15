@@ -87,7 +87,7 @@ const HomeOneBanner = () => {
           <Link href="https://www.instagram.com/omy_bou?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
             Intagram
           </Link>
-          <Link href="#" target="_blank">
+          <Link href="https://x.com/OmnyaBhmd" target="_blank">
             Twitter
           </Link>
         </div>
