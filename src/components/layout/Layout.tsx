@@ -5,8 +5,8 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import VanillaTilt from "vanilla-tilt";
 import { useRouter } from "next/router";
 import Header from "./header/Header";
-import FooterTwo from "./footer/FooterTwo";
-import FooterFour from "./footer/FooterFour";
+import FooterSecondary from "./footer/FooterSecondary";
+import FooterMain from "./footer/FooterMain";
 import ScrollProgressBtn from "./ScrollProgressBtn";
 import CustomCursor from "./CustomCursor";
 import SplitType from "split-type";
@@ -184,8 +184,8 @@ const Layout = ({
           />
         )}
         <main>{children}</main>
-        {footer === 2 && <FooterTwo />}
-        {footer === 4 && <FooterFour />}
+        {footer === 2 && <FooterSecondary />}
+        {footer === 1 && <FooterMain />}
         {/*{video ? <VideoModal /> : null}*/}
         <ScrollProgressBtn />
         <CustomCursor

@@ -9,7 +9,7 @@ import Education from "@/components/containers/home/Education";
 
 const Home = () => {
   return (
-    <Layout header={1} footer={4}>
+    <Layout header={1} footer={1}>
       <HeroSection />
       <AboutMe />
       <PortfolioText />
